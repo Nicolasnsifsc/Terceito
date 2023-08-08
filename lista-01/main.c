@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Calc , Opc, a, b;
+int Calc , Opc, a, b, Menu;
 
 int main(int argc, char* argv[]){
     printf("Hello, from terceiro!\n");
@@ -15,6 +15,17 @@ int main(int argc, char* argv[]){
         printf("\n");
         printf("$ Digite 4 para fazer divisão;");
         printf("\n");
+
+        switch (Opc)
+        {
+        case 1: 
+            
+        break;
+        
+        default:
+            break;
+        }
+        
 
         printf("Digite: ");
         scanf("%d", &Opc);
