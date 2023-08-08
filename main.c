@@ -22,7 +22,7 @@ int main(int argc, char* argv[]){
         {
             Calc =  a + b;
         }
-        else if (Opc == 2)
+        else if (Opc == 2) 
         {
             Calc = a - b;
         }
